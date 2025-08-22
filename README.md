@@ -48,13 +48,3 @@ cd GalacticAdventures
 ## 🌐 Troca de Idioma
 
 O idioma pode ser alterado diretamente pelo menu **Idioma** na interface da aplicação.
-
----
-
-## 🎨 Tema
-
-A aplicação utiliza uma **interface inspirada no estilo cyberpunk**, com cores neon e fontes futuristas para melhorar a experiência do usuário.
-
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/placeholder/cyberpunk_ui_preview.png" alt="Pré-visualização da UI Cyberpunk" width="600">
-</div>
