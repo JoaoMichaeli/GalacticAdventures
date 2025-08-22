@@ -1,29 +1,37 @@
 # 🪐 GalacticAdventures
 
-## 📌 Sobre o Projeto (PT-BR)
-O **GalacticAdventures** é uma aplicação desenvolvida em **Spring Boot + Thymeleaf** que permite criar, listar e gerenciar personagens com atributos personalizados. O sistema já vem preparado para **internacionalização (i18n)** com suporte a **Português, Espanhol e Inglês**.
+<div align="center">
+  <img src="https://img.shields.io/badge/SpringBoot-3.0-green" alt="Spring Boot">
+  <img src="https://img.shields.io/badge/Java-17-blue" alt="Java">
+  <img src="https://img.shields.io/badge/Thymeleaf-HTML-orange" alt="Thymeleaf">
+</div>
 
-### 🚀 Funcionalidades
-- Criar novos personagens com nome, espécie, nível inicial e biografia.
-- Listar personagens cadastrados.
-- Suporte a múltiplos idiomas (PT, ES, EN).
+## 📌 Sobre o Projeto
 
-### 🛠️ Tecnologias Utilizadas
-- **Java 17**
-- **Spring Boot 3**
-- **Thymeleaf**
-- **Spring MVC**
-- **i18n (Internationalization)**
+O **GalacticAdventures** é uma aplicação desenvolvida em **Spring Boot + Thymeleaf** que permite criar, listar e gerenciar personagens com atributos personalizados em um universo futurista. O sistema oferece **suporte a internacionalização (i18n)**, com idiomas **Português, Espanhol e Inglês**, proporcionando uma experiência global ao usuário.
 
-### 📂 Estrutura de Internacionalização
-```
-src/main/resources/
- ├── messages.properties       # Inglês (default)
- ├── messages_pt.properties    # Português
- └── messages_es.properties    # Espanhol
-```
+---
 
-### ▶️ Como Executar
+## 🚀 Funcionalidades
+
+* ✨ **Criar Personagens** com nome, espécie, nível inicial e biografia.
+* 📜 **Listar Personagens** em uma tabela estilizada futurista.
+* 🌍 **Suporte a múltiplos idiomas** com troca dinâmica pelo menu.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+* **Java 17**
+* **Spring Boot 3**
+* **Thymeleaf**
+* **Spring MVC**
+* **i18n (Internacionalização)**
+
+---
+
+## ▶️ Como Executar
+
 ```bash
 # Clonar o repositório
 git clone https://github.com/seu-usuario/GalacticAdventures.git
@@ -33,7 +41,20 @@ cd GalacticAdventures
 ./mvnw spring-boot:run
 ```
 
-Acesse em: `http://localhost:8080`
+* Acesse a aplicação em: [http://localhost:8080:character](http://localhost:8080:character)
 
-### 🌐 Troca de Idioma
-O idioma pode ser trocado diretamente pelo menu **Idioma** na aplicação.
+---
+
+## 🌐 Troca de Idioma
+
+O idioma pode ser alterado diretamente pelo menu **Idioma** na interface da aplicação.
+
+---
+
+## 🎨 Tema
+
+A aplicação utiliza uma **interface inspirada no estilo cyberpunk**, com cores neon e fontes futuristas para melhorar a experiência do usuário.
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/placeholder/cyberpunk_ui_preview.png" alt="Pré-visualização da UI Cyberpunk" width="600">
+</div>
